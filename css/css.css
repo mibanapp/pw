@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,p,h1,h2,h3,h4,h5,h6,textarea,input,ul,li,iframe,dl,dd,dt,footer { margin:0; padding:0;}
+ul,li,ol,dl,dd,dt{list-style: none;}
+h1,h2,h3,h4,h5,h6{display: block;}
+
+body { font:16px/1.5 "Microsoft Yahei",Arial,Helvetica; color:#333; overflow:visible; margin:0rem auto; min-height:100%; height: 100%; background: #fff;}
+
+a{ text-decoration: none; color: #6f0a2e; }
+a:hover{ text-decoration: underline; }
+
+
+.amenu{ width: 1000px; margin: 30px auto 0px; }
+.amenu ul{ overflow: hidden; }
+.amenu ul li{ float: left; margin-right: 12px; font-size: 15px; }
+.amenu ul li a{ border: 1px dashed #ccc; display: block; height: 36px; line-height: 36px; text-align: center; color: #999; padding: 0px 12px; }
+.amenu ul li a.cur{ border: 1px dashed #71c7f8; background: #eff9ff; color: #1292ff; font-weight: bold; }
+
+.main_body{ width: 1000px; margin: 0px auto; padding: 10px 0px 50px; overflow: hidden; }
+
+h1{ margin-top: 30px; font-size: 24px; } 
+h1 a{ color: #333; text-decoration: underline; }
+h1 a:hover{ color: #6f0a2e; }
+
+
+.openinstall{ overflow: hidden; }
+.openinstall .zuhe{ float: left; width: 50%; }
+
+.zuhe{ margin-top: 10px; }
+.zuhe h4{ font-size: 16px; color: #888; font-weight: normal; }
+.zuhe em{ color: #999; padding: 0px 20px; }
+.zuhe span{  }
+
+.zuhe .openkey{ font-size: 14px; line-height: 20px; height: 100px; padding: 5px 0px 10px; color: #666; }
+.zuhe .openkey em{ color: #999; padding: 0px 10px; }
+.zuhe .openkey .sp3{ color: #31b445; padding-left: 3px; }
+
+.beizhu{ color: #999; padding-bottom: 0px; font-size: 14px; word-break:break-all; line-height: 20px;  }
+.beizhu span{ margin-right: 10px; }
+
+
+.fenge_box{ overflow: hidden; }
+.qpkuai{ width: 470px; float: left; overflow: hidden; padding-right: 30px; }
+
+.qpkuai .beizhu{ min-height: 60px; }
+.qpkuai .beizhu2{ line-height: 20px; padding-top: 5px; color: #999; font-size: 14px; word-break:break-all; }
+.qpkuai .beizhu2 a{ color: #999; }
+.qpkuai .beizhu2 span{ margin-right: 14px; }
+.qpkuai .beizhu3{ line-height: 20px; padding-top: 5px; color: #999; font-size: 14px; word-break:break-all; }
+/*.qpkuai .beizhu3 span{ margin-right: 14px; }*/
+.qpkuai .beizhu3 em{ color: #999; padding: 0px 14px; }
+.qpkuai .beizhu4{ line-height: 20px; padding-top: 5px; color: #999; font-size: 15px; word-break:break-all; }
+.qpkuai .beizhu4 a{  }
+
+.qpkuai .pifu{ line-height: 20px; padding-top: 5px; color: #999; font-size: 14px; word-break:break-all; }
+.qpkuai .pifu em{ padding-right: 8px; }
+
+.qpkuai .hotgame{ color: #890031; }
+.qpkuai .hotgame:hover{ color: #ff005b; }
+
+
+.iosjc{ margin-top: 10px; }
+.iosjc p em{ margin: 0px 10px; font-style: normal; color: #ccc; }
+
+}
